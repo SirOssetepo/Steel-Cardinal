@@ -1,0 +1,18 @@
+{
+	"id":"SC_Med_Storm_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":35.0,
+	"width":6,
+	"fadeTime":0.4,
+	"fringeColor":[255,0,0,255],
+	"coreColor":[255,255,255,255],
+	"glowColor":[255,0,0,125],
+	"glowRadius":45,
+	"hitGlowRadius":70,	
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/SC_shell_storm.png"	
+}

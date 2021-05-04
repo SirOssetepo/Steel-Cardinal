@@ -1,0 +1,81 @@
+{
+  "hullName": "Ibis",
+  "hullId": "SC_Shepherd",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/SC_Shepherd.png",
+  "style": "MIDLINE",
+  "height": 92,
+  "width": 78,
+  "center": [39, 46],
+  "collisionRadius": 69.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 63,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-7.5, 0.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": 0,
+      "locations": [26, -18.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 9,
+      "angle": -90,
+      "locations": [-4, -23.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -9.5, 17.5,
+        -0.5, 18,
+        9, 18.5,
+        20, 18.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-39.5, 19.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-39.5, -19.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    30.5, -26.5,
+    -31.5, -28,
+    -31.5, 28,
+    30.5, 26.5
+  ]
+}

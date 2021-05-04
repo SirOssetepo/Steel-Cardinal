@@ -1,0 +1,26 @@
+{
+  "variantId": "SC_Lasher_SO",
+  "hullId": "SC_Lasher",
+  "displayName": "Hunter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "safetyoverrides",
+    "hardened_subsystems"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "heavymg",
+        "WS0004": "chaingun"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,36 @@
+{
+  "variantId": "SC_Venture_Marauder",
+  "hullId": "SC_Venture",
+  "displayName": "Marauder",
+  "goalVariant": false,
+  "fluxCapacitors": 7,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "blast_doors",
+    "armoredweapons",
+    "heavyarmor",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ionbeam",
+        "WS0002": "dualflak",
+        "WS0003": "dualflak",
+        "WS0004": "dualflak",
+        "WS0005": "lightdualmg",
+        "WS0006": "lightdualmg",
+        "WS0007": "vulcan",
+        "WS0008": "vulcan",
+        "WS0009": "hephag",
+        "WS0010": "mark9"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,92 @@
+{
+  "hullName": "Tayra",
+  "hullId": "SC_Buffalo",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/SC_Buffalo_civ.png",
+  "style": "MIDLINE",
+  "height": 150,
+  "width": 100,
+  "center": [50, 75],
+  "collisionRadius": 141,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 130,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 102,
+      "angle": 137.5,
+      "locations": [-44.5, 18]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 102,
+      "angle": -137.5,
+      "locations": [-44.5, -18]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-71.5, 25],
+      "length": 37,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-71.5, -25],
+      "length": 37,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-72, 15],
+      "length": 37,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-72, -15],
+      "length": 37,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-72.5, 5.5],
+      "length": 37,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-72.5, -5.5],
+      "length": 37,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    56, -43.5,
+    -33, -40.5,
+    -66, -25.5,
+    -66, 25.5,
+    -33, 40.5,
+    56, 43.5
+  ]
+}

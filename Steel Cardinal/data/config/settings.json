@@ -1,0 +1,18 @@
+{
+	"designTypeColors": {
+		"Steel Cardinal": [
+			255,
+			130,
+			90,
+			255
+		],
+	},
+	
+	"graphics": {
+		"blueprint_packages": {
+			"Steelcardinal_package":"graphics/icons/cargo/Steelcardinal_bp.png",
+		},
+		
+		
+	}
+}

@@ -1,0 +1,51 @@
+{
+  "variantId": "SC_Atlas_Missile",
+  "hullId": "SC_Atlas",
+  "displayName": "Missile",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hbi",
+    "missleracks",
+    "targetingunit",
+    "fluxbreakers"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0002": "vulcan",
+        "WS0003": "vulcan",
+        "WS0004": "vulcan",
+        "WS0005": "vulcan",
+        "WS0006": "vulcan",
+        "WS0007": "heavymortar",
+        "WS0008": "heavymortar",
+        "WS0009": "heavymg",
+        "WS0010": "heavymg",
+        "WS0011": "mark9",
+        "WS0012": "mark9",
+        "WS0013": "heavymortar",
+        "WS0014": "vulcan",
+        "WS0015": "vulcan",
+        "WS0016": "vulcan",
+        "WS0017": "vulcan",
+        "WS0020": "flak",
+        "WS0021": "flak",
+        "WS0022": "vulcan",
+        "WS0023": "vulcan",
+        "WS0024": "vulcan",
+        "WS0025": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "gladius_wing"
+  ]
+}

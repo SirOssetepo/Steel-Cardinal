@@ -1,0 +1,53 @@
+{
+  "id": "SC_Big_Storm",
+  "specClass": "projectile",
+  "projectileSpecId": "SC_Med_Storm_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "displayArcRadius": 450,
+  "turretSprite": "graphics/weapons/SC_Big_Storm_turret_base.png",
+  "turretGunSprite": "graphics/weapons/SC_Big_Storm_turret_recoil.png",
+  "hardpointSprite": "graphics/weapons/SC_Big_Storm_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/weapons/SC_Big_Storm_hardpoint_recoil.png",
+  "visualRecoil": 10,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    33.5,
+    -7,
+    33.5,
+    7
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    40,
+    -4,
+    40,
+    4
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 45,
+    "spread": 45,
+    "particleSizeMin": 17,
+    "particleSizeRange": 22,
+    "particleDuration": 0.7,
+    "particleCount": 55,
+    "particleColor": [
+      255,
+      155,
+      75,
+      225
+    ]
+  },
+  "fireSoundTwo": "hellbore_fire"
+}

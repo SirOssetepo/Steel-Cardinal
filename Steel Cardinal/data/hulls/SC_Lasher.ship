@@ -1,0 +1,104 @@
+{
+  "hullName": "Merlin",
+  "hullId": "SC_Lasher",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/SC_Lasher.png",
+  "style": "MIDLINE",
+  "height": 96,
+  "width": 68,
+  "center": [34, 48],
+  "collisionRadius": 83.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 77.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 90,
+      "locations": [-10, 11]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -90,
+      "locations": [-10, -11]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [7.5, 23]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": -0,
+      "locations": [7.5, -23]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-46, 22.5],
+      "length": 25.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-46, -22.5],
+      "length": 25.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-46.5, -13],
+      "length": 25.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-46.5, 13],
+      "length": 25.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-47, -0.5],
+      "length": 36,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    38.5, -10,
+    3, -14,
+    -12.5, -31,
+    -42.5, -24,
+    -42.5, 24,
+    -12.5, 31,
+    3, 14,
+    38.5, 10
+  ]
+}

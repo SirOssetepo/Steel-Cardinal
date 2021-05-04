@@ -1,0 +1,2 @@
+name,id,tags,rarity,base price,stack size,cargo space,icon,sound id,sound id drop,plugin,plugin params,desc,order
+Steel Cardinal Armada, Steelcardinal_package,package_bp,0.2,250000,1000,1,graphics/icons/cargo/blueprint_lowtech.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,Steelcardinal_bp,"Enable heavy industry to construct a long lost ship of the Steel Cardinal.",210

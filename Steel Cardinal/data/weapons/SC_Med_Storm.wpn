@@ -1,0 +1,28 @@
+{
+	"id":"SC_Med_Storm",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"MEDIUM",
+	"displayArcRadius":700,
+	"turretSprite":"graphics/weapons/SC_Med_Storm_turret_base.png",
+	"turretGunSprite":"graphics/weapons/SC_Med_Storm_turret_recoil.png",
+	"hardpointSprite":"graphics/weapons/SC_Med_Storm_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/weapons/SC_Med_Storm_hardpoint_recoil.png",	
+	"visualRecoil":7.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[20, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[30, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":40.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":30.0,
+					   "particleSizeMin":16.0,
+					   "particleSizeRange":18.0,
+					   "particleDuration":0.3,
+					   "particleCount":46,
+					   "particleColor":[255,155,75,225]},
+	"projectileSpecId":"SC_Med_Storm_shot",  # projectile that will be fired	
+	"fireSoundTwo":"heavy_mauler_fire",
+}

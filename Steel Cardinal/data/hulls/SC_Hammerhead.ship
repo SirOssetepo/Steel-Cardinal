@@ -1,0 +1,175 @@
+{
+  "hullName": "Hookbill",
+  "hullId": "SC_Hammerhead",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/SC_Hammerhead.png",
+  "style": "MIDLINE",
+  "height": 164,
+  "width": 108,
+  "center": [54, 82],
+  "collisionRadius": 142,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 132,
+  "viewOffset": 0,
+  "builtInWings": [
+    "terminator_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -1, 21.5,
+        9, 22,
+        -1, -23.5,
+        8.5, -24
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 11,
+      "angle": 0,
+      "locations": [70.5, 31]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 11,
+      "angle": -0,
+      "locations": [70.5, -31]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 11,
+      "angle": 0,
+      "locations": [74.5, 11.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 11,
+      "angle": -0,
+      "locations": [74.5, -11.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": 45,
+      "locations": [44.5, 16]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": -45,
+      "locations": [44.5, -16]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 242,
+      "angle": 90,
+      "locations": [-30, 38]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 242,
+      "angle": -90,
+      "locations": [-30, -38]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-80.5, 39],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-80.5, -39],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-80, 29],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-80, -29],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-74.5, 8],
+      "length": 60.5,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-74.5, -8],
+      "length": 60.5,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    69, -23.5,
+    63.5, -47.5,
+    46.5, -48.5,
+    37, -18.5,
+    20.5, -16.5,
+    18.5, -32,
+    -8, -34.5,
+    -31, -52,
+    -78.5, -43.5,
+    -78.5, 43.5,
+    -31, 52,
+    -8, 34.5,
+    18.5, 32,
+    20.5, 16.5,
+    37, 18.5,
+    46.5, 48.5,
+    63.5, 47.5,
+    69, 23.5
+  ]
+}

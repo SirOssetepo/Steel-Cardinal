@@ -1,0 +1,139 @@
+{
+  "hullName": "Nightmare",
+  "hullId": "SC_Enforcer",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/SC_Enforcer.png",
+  "style": "MIDLINE",
+  "height": 136,
+  "width": 136,
+  "center": [68.5, 65],
+  "collisionRadius": 126.5,
+  "shieldCenter": [1, 0.5],
+  "shieldRadius": 117,
+  "viewOffset": 0,
+  "builtInMods": [
+    "delicate",
+    "phasefield"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [32.5, 51.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [32.5, -51.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 0,
+      "locations": [40.5, 31]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [40.5, -31]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 35.5,
+      "locations": [14.5, 28.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -35.5,
+      "locations": [14.5, -28.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-62.5, 38],
+      "length": 44.5,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-62.5, -38],
+      "length": 44.5,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-64, 28.5],
+      "length": 37,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-64, -28.5],
+      "length": 37,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-63.5, 20],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-63.5, -20],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "OMEGA"
+    }
+  ],
+  "bounds": [
+    64.5, -19,
+    38.5, -21,
+    18.5, -56.5,
+    -15.5, -62.5,
+    -58.5, -47.5,
+    -60.5, -22.5,
+    -42, -1,
+    -60.5, 22.5,
+    -58.5, 47.5,
+    -15.5, 62.5,
+    18.5, 56.5,
+    38.5, 21,
+    64.5, 19
+  ]
+}
